@@ -1,0 +1,140 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>koval</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+<link rel="stylesheet" href="Koval.css">
+<link rel="stylesheet" href="bower_components/aos/dist/aos.css">
+<link href="./pointer.css" rel="stylesheet">
+<script src="./pointer.js"></script>
+<link href="./pointer.css" rel="stylesheet">
+
+<script src="bower_components/aos/dist/aos.js"></script>
+
+<script>
+
+  AOS.init();
+  init_pointer({
+            
+          })
+    function openNav() {
+      document.getElementById("mySidenav").style.width = "100%";
+    }
+    
+    function closeNav() {
+      document.getElementById("mySidenav").style.width = "0";
+    }
+  
+    </script>
+    <script>
+          $(document).on("click mousemove",".box",function(e){ 
+var x = e.clientX;
+var y = e.clientY;
+var newposX = x - 60;
+var newposY = y - 60; $(".circle").css("transform","translate3d("+newposX+"px,"+newposY+"px,0px)");
+});
+    </script>
+  </head>
+  <bodys>
+    <div class="box d-flex flex-row justify-content-between">
+     
+      <div class="d-flex flex-colomn" data-aos="flip-down" id="container">
+          <div>
+              <div id="mySidenav" class="sidenav d-flex flex-row" style="margin-bottom: 160px;">
+                <div>
+                  <a class="link" href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+
+                  <a style="font-size: 70px" class="link" href="#">About</a>
+                  <a style="font-size: 70px" class="link" href="#">Services</a>
+                  <a style="font-size: 70px" class="link" href="#">Blogs</a>
+                  <a style="font-size: 70px" class="link" href="#">Contact</a>
+                </div>
+                <div class="up-bar" style="margin-left: 500px;margin-top: 100px;">
+                  <a class="link" href="#">phone</a>
+                  <h5 class="link" style="color:white;margin-left: 30px;">8388299388893</h5>
+                  <a class="link" href="#">Email</a>
+                  <h5 class="link" style="color:white;margin-left: 30px;">jakjkaj@gmail</h5>
+                </div>
+                </div>
+         
+                <span style="font-size:30px;cursor:pointer" onclick="openNav()">&#9776; </span>
+            </div>
+      <div>
+          <div class="mnu-btn magnetitem">
+              <span class="mnu-btn-line"></span>
+              <span class="mnu-btn-line"></span>
+              <span class="mnu-btn-line"></span>
+          </div>
+      </div>
+      </div>
+      <div>
+        
+        <ul>
+            <h6>Koval</h6>
+            <h6>web</h6>
+            <h6>production</h6>
+        </ul>
+    </div>
+    <div class="dropdown">
+      
+      <ul class="menu">
+        <li>
+          <a class="link" href="#">lang</a>
+          
+          <ul>
+            <li><a class="link" href="#">Kyp</a></li>
+            <li><a class="link" href="#">Ypj</a></li>
+
+          </ul>
+        </li>
+      </ul>
+    </div>
+    <div> 
+        <a class="link2">About</a>
+        <a class="link2" style="padding-right:20px"><span style=" white-space: nowrap">contact us</span></a>
+    </div>
+    </div>
+      <!-- text -->
+      <div class="d-flex flex-colomn justify-content-center" style="margin-top:30px">
+        <h1 style="color: chocolate;font-style: oblique;">01</h1>
+        <ul class="font">
+        <h1 class="full-text" style="font-size: 90px;font-style: oblique">Don't Make</h1>
+        <h1 class="full-text" style="font-size: 90px;font-style: oblique">Me Wait</h1>
+        <h1 class="short-text" style="font-size: 40px;font-style: oblique">Don't Make</h1>
+        <h1 class="short-text" style="font-size: 40px;font-style: oblique">Me Wait</h1>
+        </ul>
+ 
+      </div>
+      <!-- footew -->
+      <div class="d-flex flex-row justify-content-between">
+        <ul style="margin-top:130px;">
+          <a class="link" style="writing-mode: vertical-rl;">we use cookies</a>
+          <a class="link" style="writing-mode: vertical-rl;color:rgb(51, 51, 82);margin-top: 30px;">privacy policy</a>
+        </ul>
+        <button id="trigger" class="button button5" data-aos="fade-up"><div class="arrow" style='font-size: 106px;
+          margin-top: -60%;border-width: 4px;font-style:inherit;'>&#8681;</div> <div class="hide" >what are the benifits?!</div>
+        </button>
+        <ul style="margin-top: 200px;">
+          <h4 style="font-style: oblique">We create fast sites from</h4>
+          <h4 style="font-style: oblique;color:chocolate">which no one will escape</h4>
+        </ul>
+        <ul>
+            <a class="link" style="writing-mode: vertical-rl;margin-top: 170px;">2020koval web</a><br>
+        </ul>
+        <div class="tooltip">Hover over me
+            <span class="tooltiptext">Tooltip text</span>
+        </div>
+      </div>
+    </div>
+
+  </body>
+</html>
+
+
+
+

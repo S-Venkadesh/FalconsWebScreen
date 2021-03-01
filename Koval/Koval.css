@@ -1,0 +1,185 @@
+body{
+
+  background-color: #c0bab2;
+  
+}
+.btn{
+    background-color:#bcb7af ;
+    outline: none;
+}
+.button5 {
+    border-radius: 50%;
+    padding:100px;
+    background-color:#bcb7af ;
+   padding-top: 150px;
+   height: 60px;
+   content: "\21E9";
+   margin-top: 74px;
+  margin-left: -160px;
+}
+section{
+    margin-left: 400px;
+}
+
+ 
+  .sidenav {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    left:0;
+    background-color: #111;
+    overflow-x: hidden;
+    transition: 0.5s;
+    padding-top: 60px;
+  }
+  
+  .sidenav a {
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    font-size: 25px;
+    color: #818181;
+    display: block;
+    transition: 0.3s;
+  }
+  
+  .sidenav a:hover {
+    color: #f1f1f1;
+    
+  }
+  
+  .sidenav .closebtn {
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 36px;
+    margin-left: 50px;
+  }
+  
+  .fa-facebook {
+    background: red;
+    color: black;
+  }
+  .fa-linkedin {
+    background:#818181;
+    color: black;
+  }
+  .fa-instagram {
+    background: #818181;
+    color: black;
+  }
+  .fa {
+    padding: 20px;
+    font-size: 30px;
+    width: 50px;
+    text-align: center;
+    text-decoration: none;
+    margin: 5px 2px;
+  }
+  .vl {
+    border-left: 6px solid green;
+    height: 500px;
+  }
+  a {
+    position: relative;
+}
+a:hover {
+    top: -5px;
+   
+}
+.menu {
+  display: block;
+  margin: 0 auto;
+  position: relative;
+  width: 200px;
+  list-style-type:none;
+}
+
+.menu > li > a {
+  background: #c0bab2;
+  color: black;
+  display: block;
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: none;
+}
+
+.menu ul {
+  background-color: inherit;
+  height: 0;
+  left: 0;
+  opacity: 0;
+  position: absolute;
+  transition: all .5s ease;
+  top: 35px;
+  width: 100%;
+  list-style-type:none;
+}
+
+.menu li:hover ul {
+  height: 200px;
+  opacity: 1;
+  transform: translateY(0);
+}
+
+.menu ul a {
+  color: #000;
+  display: block;
+  padding: 5px 20px;
+  margin-left: 24px;
+}
+
+.button5:hover .arrow {
+  display:none;
+  
+}
+.button5:hover .hide{
+  background-color: #EE3911;
+  color:white;
+  display:block
+}
+.button5:hover{
+  background-color: #EE3911;
+ 
+}
+.hide{
+  color:#c0bab2
+}
+.container {
+  position: absolute;
+  top: 200px;
+  left: 200px;
+  border: 1px dashed #999;
+  display: inline-block;
+  width: 200px;
+  padding: 5px;
+  font-size: 150%;
+}
+.container2{
+  margin-left:100px
+}
+.link2{
+  padding:30px;
+  padding-left: 30px;
+}
+@media (max-width: 640px) 
+{
+    .button5
+    {
+        display: none;
+    }
+}
+
+.short-text { display: none; }
+
+@media (max-width: 1200px) {
+    .short-text { display: inline-block; }
+    .full-text { display: none; }
+}
+@media (max-width: 640px) 
+{
+    .link
+    {
+       padding-left:20px;
+    }
+}
